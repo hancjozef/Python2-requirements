@@ -1,11 +1,8 @@
 # Specifying a Python 2 environment with `runtime.txt`
 
-[![Binder](http://mybinder.org/badge.svg)](http://beta.mybinder.org/v2/gh/binder-examples/python2_runtime/master)
+Testing Python 2 with extra libraries - numpy, matplotlib, pandas, lapack, cvxpy
 
-We can specify various runtime parameters with a `runtime.txt` file. In this
-repository, we demonstrate how to install python 2 with the environment.
-
-If you specify `python-2.7` in `runtime.txt`, then:
+`python-2.7` in `runtime.txt`:
 
 * A python3 environment is created & installed (this is what the notebook runs from)
 * A python2 environment is created and registered
